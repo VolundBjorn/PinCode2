@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button10"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="528dp"
+        android:text="@string/_10"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/_2"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="528dp"
+        android:text="@string/ok"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="456dp"
+        android:text="@string/_7"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="384dp"
+        android:text="@string/_5"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="456dp"
+        android:text="@string/_9"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="317dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="240dp"
+        android:elegantTextHeight="true"
+        android:text="@string/enterCode"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="384dp"
+        android:text="@string/_6"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/_1"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="456dp"
+        android:text="@string/_8"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="384dp"
+        android:text="@string/_4"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="312dp"
+        android:text="@string/_3"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1" />
+
+    <Button
+        android:id="@+id/button0"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="81dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="528dp"
+        android:text="@string/_0"
+        android:textColor="#1C46B1"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#1C46B1"
+        tools:ignore="TextSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
